@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Can_parameter_config</class>
+ <widget class="QDialog" name="Can_parameter_config">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>346</width>
+    <height>261</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>设备类型</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>设备索引</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="Cbx_device_index">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="Cbx_device_pass">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>波特率</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="Cbx_device_rate">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>10Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>20Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>40Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>50Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>80Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>100Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>125Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>200Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>400Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>500Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>666Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>800Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1000Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>33.33Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>66.66Kbps</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>83.33Kbps</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="Cbx_device_type">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>USBCAN-2A</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>USBCAN-2C</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CANalyst-II</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="Btn_cancel">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="Btn_ok">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>确定</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>工作模式</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="Cbc_mode">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>正常模式</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>监听模式</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>测试模式</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
